@@ -1,0 +1,11 @@
+module Application
+  SECRETS =
+  {
+    GOOGLE_GEOCODING_API: 'AIzaSyBPF8UDDAA000mmYDZDsJhhhhhfTtFjkWk',
+    GOOGLE_GEOCODING_BASE_URI: 'https://maps.googleapis.com/maps/api'
+  }
+
+  def self.config
+    SECRETS
+  end
+end
